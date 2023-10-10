@@ -1,4 +1,4 @@
-//Globe Variables
+//Global Variables
 int appwidth, appHeight;
 float backgroundX, backgroundY, backgroundWidth, backgroundHeight;
 float obix, obiY, obiWidth, obiHeight ;
@@ -7,12 +7,12 @@ PImage backgroundPic, obiPic, darthPic;
 Boolean nightmode, BrightnessControl; //Reminder tint()
 int brightnessNumber=128; //Range 1-255
 //
-void setup() [
-}
+void setup() 
+{
 //fullSrceen();
  size(800, 600);
- appwidth = ;//displayWidth
- appHeight = ;//displayHeight
+ appWidth = width ;//displayWidth
+ appHeight = height;//displayHeight
  //
  //population of variables
 backgroundX = appWidth*0 ;
@@ -39,9 +39,10 @@ backgroundX = appWidth*0 ;
  //
  //Divs as rect()s: images to be centered
  rect(BackgroundX, BackgroundY, BackgroundWidth, BackgroundHeight);
- rect( obiX,  obiY,  obiWidth,  obiHeight);
- rect((darthX, (darthY, (darthWidth, (darthHeight);
+ rect(obiX,  obiY,  obiWidth,  obiHeight); //landscape geometry
+ rect((darthX, darthY, darthWidth, darthHeight); //portrait geometry
  //
+ 
 //End setup
 //
 void draw() 
