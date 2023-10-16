@@ -40,7 +40,8 @@ backgroundX = appWidth*0 ;
  //Divs as rect()s: images to be centered
  rect(BackgroundX, BackgroundY, BackgroundWidth, BackgroundHeight);
  rect(obiX,  obiY,  obiWidth,  obiHeight); //landscape geometry
- rect((darthX, darthY, darthWidth, darthHeight); //portrait geometry
+  rect(darthX, darthY, darthWidth, darthHeight); //portrait geometry
+  //
  //
  
 //End setup
@@ -51,6 +52,7 @@ void draw()
  //Mathematics for Brightness Control & Night Mode
   //
   //Background Image is not Aspect Ratio
+  //background (255); //Small BUG, 1 pixel
   image( backgroundPic, backgroundX, backgroundY, backgroundWidth, backgroundHeight);
   //When Darth in Landscape & Obi in Portrait, not aspect ratio
   //To get Aspect Ratio: the larger dimension is the size of the rect, smaller dimension is calculated
