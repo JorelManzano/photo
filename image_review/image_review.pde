@@ -57,7 +57,7 @@ void draw()
   //When Darth in Landscape & Obi in Portrait, not aspect ratio
   //To get Aspect Ratio: the larger dimension is the size of the rect, smaller dimension is calculated
   image( darthPic, obiX, obiY, obiWidth, obiHeight);
-  image ( obiPic, darthX, darthY, darthWidth, darthHeight);
+  image ( obiPic, darthX, darthY, darthWidth, darthHeight); x
   //
 } //End draw
 //
